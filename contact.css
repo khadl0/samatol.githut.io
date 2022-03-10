@@ -1,0 +1,191 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    margin: 0px;
+    padding: 0px; 
+}
+h1{
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    font-weight: normal;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+}
+footer{
+    height: 50px;
+    padding: 15px;
+    margin: 0px;
+   text-align: center;
+    background-color:  rgb(18, 161, 18);
+    font-size: 50px;
+    font-weight: 100px;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    background-color:  rgb(18, 161, 18);
+    margin: 10px;
+    
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    list-style: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: cornsilk;
+    font-size: 50px;
+text-transform:uppercase;
+}
+.menu{
+    display: table;
+    margin:0px auto;
+    background-position: center;
+}
+.AC:hover{
+    border-top: 5px solid  rgb(19, 21, 158);
+    background-color: rgba(64, 84, 200, 0.15)
+
+}
+.PR:hover{
+    border-top: 5px solid #f1dc4f;
+background-color: rgba(241,211,79,0.15);
+}
+.FE:hover{
+    border-top:5px solid #0070bb ;
+    background-color: rgba(000,112,192,0.15);
+}
+.IN:hover{
+    border-top:5px solid #ee0707 ;
+    background-color: rgba(1, 4, 27, 0.15);
+}
+
+.CO:hover{
+    border-top:5px solid #ff9b04;
+    background-color: rgba(15, 168, 66, 0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+@media screen and (max-width:780px){
+    header{
+        height: 50px;
+    }
+    h1{
+font-size: 28px;
+margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+padding: 8px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
+.sec6{
+    padding:50px;
+    flex-direction: column;
+    background: url(vegetal.jpg);
+    background-size: cover;
+    
+}
+.sec6 .content{
+    text-align: center;
+    color: #fff;
+}
+.sec6 .content h2{
+    font-size: 30px;
+    font-weight:100px;
+    color: #fff;
+    text-align: center;
+}
+.sec6 .content p{
+    font-weight:500px;
+    color: #fff;
+}
+.phase{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left:5px;
+    position: relative;
+    left: -400px;
+    top: 100px;
+}
+.phase .info{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.phase .info .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.phase .info .box .text{
+    display: flex;
+    color: #fff;
+    margin-left: 20px;
+    flex-direction: column;
+font-weight: 100px;
+font-size: 50px;
+}
+.phase .info .box .text h3{
+    color: rgb(18, 161, 18);
+font-weight: 130px;
+}
+.con{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    position: relative;
+    right:-900px;
+    bottom: 400px;
+   
+}
+.con h2{
+    font-size: 50px;
+    font-weight: 120px;
+    color: rgb(18, 161, 18);
+}
+.con .champ{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 50px;
+} 
+.con .champ input{
+    width: 100%;
+    padding: 5px;
+    margin: 15px;
+    border: none;
+    border-bottom: 2px solid black; 
+    outline: none;
+    resize: none;
+}
+.send input{
+    border: 1px;
+    color:rgb(18, 161, 18);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 90px;
+    background: none;
+}
